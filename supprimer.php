@@ -22,7 +22,7 @@ $conn = new mysqli("localhost", "Nassour", "Passer", "crud");
             echo "<p>Erreur: " . $conn->error . "</p>";
         }
     } else {
-        echo "<p>ID du joueur non spécifié.</p>";
+        echo "<p>ID de l'utilisateur non spécifié.</p>";
     }
 
     $conn->close();
